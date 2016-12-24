@@ -7240,13 +7240,14 @@ button.close {
 }
 
 .navbar .navbar-header {
-    position: relative
+    position: relative;
 }
 
 .navbar .navbar-header .navbar-toggle {
-    position: absolute;
+    /*position: absolute;
     left: 50%;
-    margin-left: -22px
+    margin-left: -22px*/
+    margin-right: 20px;
 }
 
 .language {
@@ -7255,7 +7256,7 @@ button.close {
     color: #fff;
     margin-left: 30px;
     margin-right: 30px;
-    font-size: 12px
+    font-size: 12px;
 }
 
 .language span {
